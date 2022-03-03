@@ -79,7 +79,7 @@ form button:hover{
 
 .todo-item{
     padding: 0rem 0.5rem;
-}
+} 
 
 .fa-trash, 
 .fa-check{
@@ -121,10 +121,12 @@ select{
     content: "\25BC";
     position: absolute;
     background: #ff6f47;
+    color: white;
     top:0;
     right: 0;
     padding: 1rem;
     pointer-events: none;
+    transition: 0.3s;
 }
 
 .select:hover::after{
